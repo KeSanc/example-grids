@@ -122,11 +122,11 @@ body {
 }
 
 .footer .listen-online {
-    grid-template-areas: listen-online;
+    grid-template-areas: "listen-online";
     display: flex;
     justify-content: center;
     background-color: #EDCB54;
-    padding: 26px;
+    padding: 21px;
     color: #181818;
 }
 
@@ -136,12 +136,12 @@ body {
 }
 
 .footer .follow-me {
-    grid-template-areas: follow-me;
+    grid-template-areas: "follow-me";
     text-align: center;
 }
 
 .footer .social-network {
-    grid-template-areas: social-network;
+    grid-template-areas: "social-network";
     font-size: 1.3em;
 }
 
