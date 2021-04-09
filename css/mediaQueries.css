@@ -20,6 +20,10 @@
     .navbar .shopping {
         display: none;
     }
+    .navbar .logo {
+        grid-column: 1;
+        margin-left: 6px;
+    }
     .navbar .menu-bar {
         display: block;
         grid-column: 8/9;
