@@ -27,7 +27,8 @@ body {
 .navbar .logo {
     width: 3.75rem;
     height: 3.75rem;
-    grid-column: 2/3;
+    grid-column: 1;
+    margin-left: 1rem;
 }
 
 .navbar .menu {
