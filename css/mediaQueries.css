@@ -35,6 +35,7 @@
         width: 100%;
         height: 70vh;
         display: grid;
+        grid-template-columns: repeat(1, 1fr);
         align-items: center;
         background-color: #1a1825;
         margin-top: 10vh;
@@ -43,6 +44,10 @@
         transform: translateX(167%);
         display: none;
         transition: all 1s;
+    }
+    .navbar .menu li a {
+        display: block;
+        text-align: center;
     }
     .navbar .menu-toggle {
         transform: translateX(67%);
