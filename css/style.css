@@ -14,14 +14,14 @@ body {
 }
 
 
-/*SECTION NAV-BAR*/
+/*SECTION NAV-BAR  background-color: #1e1b2b;*/
 
 .navbar {
-    background-color: #EDCB54;
+    background-color: #1a1825;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     align-items: center;
-    height: 9vh;
+    min-height: 10vh;
 }
 
 .navbar .logo {
@@ -42,20 +42,25 @@ body {
 
 .navbar .menu li a {
     text-decoration: none;
-    color: #181818;
+    color: #fff;
     cursor: pointer;
+    padding: 25px;
 }
 
 .navbar .menu li a:hover {
-    color: #fff;
+    color: #ee4141;
+    background-color: #f8f4f4;
 }
 
 .navbar .menu-bar {
     display: none;
+    color: #fff;
 }
 
 .navbar .shopping {
     grid-column: 8/9;
+    color: #fff;
+    cursor: pointer;
 }
 
 
@@ -115,9 +120,9 @@ body {
 
 .footer {
     display: grid;
-    height: 12vh;
+    height: 11vh;
     align-items: center;
-    background-color: #181818;
+    background-color: #1e1b2b;
     color: #fff;
     grid-template-areas: "listen-online follow-me social-network"
 }
@@ -126,10 +131,15 @@ body {
     grid-template-areas: "listen-online";
     display: flex;
     justify-content: center;
-    background-color: #EDCB54;
-    color: #181818;
+    background-color: #ec3e3e;
+    color: #dad6d6;
     height: 100%;
     align-items: center;
+    cursor: pointer;
+}
+
+.footer .listen-online:hover {
+    background-color: #f05f5fc7;
 }
 
 .footer .listen-online .icon {
@@ -149,7 +159,8 @@ body {
 
 .footer .social-network .fab {
     margin-right: 15px;
-    color: #EDCB54;
+    color: #54bced;
+    cursor: pointer;
 }
 
 .footer .social-network .fab:hover {

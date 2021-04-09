@@ -32,8 +32,8 @@
         height: 70vh;
         display: grid;
         align-items: center;
-        background-color: #EDCB54;
-        margin-top: 3.71rem;
+        background-color: #1a1825;
+        margin-top: 10vh;
         top: 0;
         right: 0;
         transform: translateX(167%);
@@ -58,5 +58,26 @@
     }
     .footer .social-network {
         text-align: center;
+    }
+}
+
+@media only screen and (max-height: 629px) {
+    .hero .info-content {
+        grid-column: 2/10;
+        grid-row: 3/6;
+    }
+}
+
+@media only screen and (max-height: 526px) {
+    .hero .info-content {
+        grid-column: 2/10;
+        grid-row: 2/6;
+    }
+}
+
+@media only screen and (max-height: 452px) {
+    .hero .info-content {
+        grid-column: 2/10;
+        grid-row: 1/6;
     }
 }
