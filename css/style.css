@@ -21,6 +21,7 @@ body {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     align-items: center;
+    height: 9vh;
 }
 
 .navbar .logo {
@@ -61,7 +62,7 @@ body {
 /*SECTION MAIN*/
 
 .hero {
-    height: 80vh;
+    height: 79vh;
     background-image: linear-gradient(rgba(10, 10, 10, .8), rgba(10, 10, 10, .8)), url('../img/bg.jpg');
     background-size: cover;
     max-width: 100%;
@@ -126,8 +127,9 @@ body {
     display: flex;
     justify-content: center;
     background-color: #EDCB54;
-    padding: 21px;
     color: #181818;
+    height: 100%;
+    align-items: center;
 }
 
 .footer .listen-online .icon {
