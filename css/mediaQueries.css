@@ -11,9 +11,6 @@
     /*Hasta que la pantalla se encuentre a un maximo de 600px*/
     /*Va a pasar lo siguiente:*/
     /*SECTION NAV-BAR*/
-    .body {
-        overflow-x: hidden;
-    }
     .navbar {
         position: relative;
     }

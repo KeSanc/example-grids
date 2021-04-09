@@ -61,7 +61,7 @@ body {
 /*SECTION MAIN*/
 
 .hero {
-    height: 130vw;
+    height: 80vh;
     background-image: linear-gradient(rgba(10, 10, 10, .8), rgba(10, 10, 10, .8)), url('../img/bg.jpg');
     background-size: cover;
     max-width: 100%;
@@ -114,7 +114,7 @@ body {
 
 .footer {
     display: grid;
-    height: 5rem;
+    height: 12vh;
     align-items: center;
     background-color: #181818;
     color: #fff;
