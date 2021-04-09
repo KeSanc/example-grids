@@ -1,0 +1,56 @@
+@media only screen and (max-width: 760px) {
+    /*Hasta que la pantalla se encuentre a un maximo de 700px*/
+    /*Va a pasar lo siguiente:*/
+    /*SECTION NAV-BAR*/
+    .hero .info-content {
+        grid-column: 6/10;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    /*Hasta que la pantalla se encuentre a un maximo de 600px*/
+    /*Va a pasar lo siguiente:*/
+    /*SECTION NAV-BAR*/
+    .navbar {
+        position: relative;
+    }
+    .navbar .shopping {
+        display: none;
+    }
+    .navbar .menu-bar {
+        display: block;
+        grid-column: 8/9;
+        font-size: 2em;
+        cursor: pointer;
+    }
+    .navbar .menu {
+        position: absolute;
+        width: 100%;
+        height: 70vh;
+        display: grid;
+        align-items: center;
+        background-color: #EDCB54;
+        margin-top: 3.71rem;
+        top: 0;
+        transform: translateX(170%);
+        transition: all 1s;
+    }
+    .navbar .menu-toggle {
+        transform: translateX(68%);
+    }
+    /*SECTION MAIN*/
+    .hero .info-content {
+        grid-column: 2/10;
+        grid-row: 4/8;
+    }
+    .hero h1 {
+        font-size: 3.5em;
+    }
+    /*SECTION FOOTER*/
+    .footer .follow-me {
+        display: none;
+    }
+    .footer .social-network {
+        text-align: center;
+    }
+}
